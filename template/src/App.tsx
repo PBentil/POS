@@ -317,21 +317,15 @@ const OrderCard = () => {
               <h1>Payment Method</h1><br />
               <div className="grid grid-cols-3 gap-2">
                 <div className="text-center">
-                  <div className="border border-white flex justify-center p-2 py-2 rounded">
-                    <SiCashapp color="white" />
-                  </div>
+                  <button className='border border-white flex justify-center p-2 py-2 rounded w-20 hover:bg-fouth'><SiCashapp color='white'/></button>
                   <p>Cash</p>
                 </div>
                 <div className="text-center">
-                  <div className="border border-white flex justify-center p-2 py-2 rounded">
-                    <CiCreditCard1 color="white" />
-                  </div>
+                <button className='border border-white flex justify-center p-2 py-2 rounded w-20 hover:bg-second'><CiCreditCard1 color='white'/></button>
                   <p>Debit Card</p>
                 </div>
                 <div className="text-center">
-                  <div className="border border-white flex justify-center p-2 py-2 rounded">
-                    <CiWallet color="white" />
-                  </div>
+                 <button className='border border-white flex justify-center p-2 py-2 rounded w-20 hover:bg-fifth'><CiWallet color='white' /></button>
                   <p>E-wallet</p>
                 </div>
               </div>
